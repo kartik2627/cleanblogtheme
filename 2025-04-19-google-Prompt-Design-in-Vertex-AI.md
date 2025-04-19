@@ -3,22 +3,9 @@ layout: post
 title: "My First Blog Post"
 date: 2025-04-19
 categories: blog
----
-This is Great! Here's a refined version of your blog, tailored specifically for GitHub—clear structure, markdown-friendly, and ideal for a technical audience browsing through repositories or blog sections:
+My learning journey through the **“Get Started with Vertex AI Studio”** and **“Getting Started with the Gemini API in Vertex AI”** courses on Google Cloud Skills Boost. These labs introduced me to powerful tools for building **generative AI** applications, leveraging **Gemini models** inside **Vertex AI Studio and Workbench**.
 
----
-
-# 🌟 Mastering Generative AI with Google Cloud’s Vertex AI & Gemini API
-
-> A hands-on walkthrough of prompt engineering, multimodal AI, and the Gemini API using Google Cloud Vertex AI
-
----
-
-## 📌 Overview
-
-This blog documents my learning journey through the **“Get Started with Vertex AI Studio”** and **“Getting Started with the Gemini API in Vertex AI”** courses on Google Cloud Skills Boost. These labs introduced me to powerful tools for building **generative AI** applications, leveraging **Gemini models** inside **Vertex AI Studio and Workbench**.
-
-You'll learn how to:
+What I learn :
 - Design high-quality prompts
 - Use multimodal inputs (text, images, video)
 - Work with the Gemini 2.0 Flash model
@@ -156,5 +143,3 @@ If you're exploring AI on **Google Cloud**, these modules are a fantastic starti
 - [Google Cloud Skills Boost Labs](https://www.cloudskillsboost.google)
 
 ---
-
-Let me know if you'd like to convert this to a `.md` file directly or want a badge-supported GitHub project page too!my first post!
