@@ -1,49 +1,56 @@
 ---
-layout: post
-title: "My First Blog Post"
+title: "Mastering Generative AI with Vertex AI Studio & Gemini API"
 date: 2025-04-19
-categories: blog
+categories: [blog, ai, vertex-ai, gemini, gcp]
+description: A hands-on journey through Google Cloud's Vertex AI Studio and Gemini API exploring prompt engineering, multimodal generation, and AI integration with Python.
+---
+
+# 🚀 Mastering Generative AI with Vertex AI Studio & Gemini API
+
 My learning journey through the **“Get Started with Vertex AI Studio”** and **“Getting Started with the Gemini API in Vertex AI”** courses on Google Cloud Skills Boost. These labs introduced me to powerful tools for building **generative AI** applications, leveraging **Gemini models** inside **Vertex AI Studio and Workbench**.
 
-What I learn :
-- Design high-quality prompts
-- Use multimodal inputs (text, images, video)
-- Work with the Gemini 2.0 Flash model
-- Stream responses
-- Analyze safety filters
-- Generate code, chat, and content dynamically
+---
+
+## 🔍 What I Learned
+
+- ✅ Designing high-quality prompts
+- 🖼️ Using multimodal inputs (text, images, video)
+- ⚡ Working with the Gemini 2.0 Flash model
+- 🔁 Streaming responses
+- 🔐 Analyzing and configuring safety filters
+- 💻 Generating code, chat, and creative content dynamically
 
 ---
 
-## 🚀 Vertex AI Studio Labs: Prompt Design & Multimodal Generation
+## 🧪 Vertex AI Studio Labs: Prompt Design & Multimodal Generation
 
-Vertex AI Studio provides a simple interface to experiment with Gemini models. Here's what I explored:
+**Vertex AI Studio** offers a simple way to test prompt ideas with Gemini models. Here's what I explored:
 
 ### ✅ Prompt Engineering
-- Created product **descriptions** and **marketing taglines**
-- Tuned tone, style, and audience intent
-- Modified prompts directly in **Vertex AI Studio** and exported them to Python
+- Generated product **descriptions** and **taglines**
+- Tuned tone, audience, and intent
+- Exported prompts to Python notebooks
 
 ### 🖼️ Multimodal Inputs
-- Uploaded product images to generate emotionally resonant descriptions
-- Adjusted prompt templates to handle **multimodal inputs**
-- Customized tagline generator to include emotional tone (e.g., *empowering*, *connected*)
+- Used product images to generate emotional descriptions
+- Customized templates with image + text inputs
+- Built a tagline generator with tone control (e.g., *empowering*, *connected*)
 
-### 🧪 Code Export to Notebook
-- Exported the prompt workflows to a **Jupyter notebook** for advanced control
-- Used Python SDK to modify system prompts and tune outputs
+### 🧬 Code Export to Notebook
+- Exported prompt designs into **Vertex AI Workbench**
+- Modified system prompts using Python for fine-tuned control
 
 ---
 
-## 🧠 Gemini API in Vertex AI: Under the Hood with Python SDK
+## 🧠 Using Gemini API via Vertex AI SDK
 
-In this lab, I moved from the Studio UI to the **Vertex AI SDK for Python**, running notebooks inside **Vertex AI Workbench**.
+I transitioned from the UI to **Python SDK** inside **Vertex AI Workbench**.
 
-### 🧾 Gemini 2.0 Flash Model
-- Fast, low-latency model with support for:
-  - Natural language prompts
-  - Code generation
-  - Multi-turn conversations
+### ⚡ Gemini 2.0 Flash Model
+A fast, lightweight model perfect for:
+- Natural language tasks
+- Code generation
+- Chat-based multi-turn conversations
 
 ```python
 from vertexai.preview.generative_models import GenerativeModel
@@ -51,7 +58,7 @@ from vertexai.preview.generative_models import GenerativeModel
 model = GenerativeModel("gemini-2.0-flash")
 response = model.generate_content("Explain quantum computing in simple terms.")
 print(response.text)
-```
+
 
 ### 🔁 Streaming Responses
 - Enabled real-time output by streaming chunks of generated content:
